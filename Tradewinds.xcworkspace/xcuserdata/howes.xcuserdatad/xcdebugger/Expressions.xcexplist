@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__23-[ViewController login]_block_invoke:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__33-[ViewController getReservations]_block_invoke:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController viewWillAppear:]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[OverviewViewController tableView:numberOfRowsInSection:]:OverviewViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[OverviewViewController tableView:cellForRowAtIndexPath:]:OverviewViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__43-[OverviewViewController fetchReservations]_block_invoke:OverviewViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__43-[OverviewViewController fetchReservations]_block_invoke_2:OverviewViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

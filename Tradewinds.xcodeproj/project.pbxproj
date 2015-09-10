@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		472E2900A465EF05DDC14E7A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEE12FE89C3E7F2D39C0139 /* libPods.a */; };
 		BD389FCD1B001F7000481875 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD389FCC1B001F7000481875 /* main.m */; };
 		BD389FD01B001F7000481875 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD389FCF1B001F7000481875 /* AppDelegate.m */; };
 		BD389FD31B001F7000481875 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD389FD21B001F7000481875 /* ViewController.m */; };
@@ -14,6 +15,27 @@
 		BD389FD81B001F7000481875 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD389FD71B001F7000481875 /* Images.xcassets */; };
 		BD389FDB1B001F7000481875 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD389FD91B001F7000481875 /* LaunchScreen.xib */; };
 		BD389FE71B001F7000481875 /* TradewindsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD389FE61B001F7000481875 /* TradewindsTests.m */; };
+		BD389FF21B00321400481875 /* TradeWindsAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = BD389FF11B00321400481875 /* TradeWindsAPI.m */; };
+		BD389FF71B003D4200481875 /* OverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD389FF51B003D4200481875 /* OverviewViewController.m */; };
+		BD389FF81B003D4200481875 /* OverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD389FF61B003D4200481875 /* OverviewViewController.xib */; };
+		BD389FFD1B003EFD00481875 /* MyReservationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD389FFB1B003EFD00481875 /* MyReservationCell.m */; };
+		BD389FFE1B003EFD00481875 /* MyReservationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD389FFC1B003EFD00481875 /* MyReservationCell.xib */; };
+		BD38A0031B003FC500481875 /* BoatAvailabilityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD38A0011B003FC500481875 /* BoatAvailabilityCell.m */; };
+		BD38A0041B003FC500481875 /* BoatAvailabilityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD38A0021B003FC500481875 /* BoatAvailabilityCell.xib */; };
+		BD939A3A1B1A2DD200A9816F /* ReservationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD939A381B1A2DD200A9816F /* ReservationsViewController.m */; };
+		BD939A3B1B1A2DD200A9816F /* ReservationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD939A391B1A2DD200A9816F /* ReservationsViewController.xib */; };
+		BD939A401B1A318D00A9816F /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD939A3E1B1A318D00A9816F /* MainPageViewController.m */; };
+		BD939A411B1A318D00A9816F /* MainPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD939A3F1B1A318D00A9816F /* MainPageViewController.xib */; };
+		BD939A441B1A399C00A9816F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD939A431B1A399C00A9816F /* CoreData.framework */; };
+		BD939A471B1A3AAA00A9816F /* TradewindsDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD939A451B1A3AAA00A9816F /* TradewindsDataModel.xcdatamodeld */; };
+		BD939A4B1B1A42D800A9816F /* Availability.m in Sources */ = {isa = PBXBuildFile; fileRef = BD939A4A1B1A42D800A9816F /* Availability.m */; };
+		BD939A4E1B1A476100A9816F /* UIColor+Tradewinds.m in Sources */ = {isa = PBXBuildFile; fileRef = BD939A4D1B1A476100A9816F /* UIColor+Tradewinds.m */; };
+		BD939A521B1A5EAD00A9816F /* TWLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = BD939A511B1A5EAD00A9816F /* TWLogo.png */; };
+		BD939A551B1A601700A9816F /* Reservation.m in Sources */ = {isa = PBXBuildFile; fileRef = BD939A541B1A601700A9816F /* Reservation.m */; };
+		BDDDD5981B2A449A0015274D /* launchLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = BDDDD5971B2A449A0015274D /* launchLogo.png */; };
+		BDDDD59C1B2A48F10015274D /* TWReservationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDDD59A1B2A48F10015274D /* TWReservationCell.m */; };
+		BDDDD59D1B2A48F10015274D /* TWReservationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDDDD59B1B2A48F10015274D /* TWReservationCell.xib */; };
+		BDDDD59F1B2A4C680015274D /* boat.png in Resources */ = {isa = PBXBuildFile; fileRef = BDDDD59E1B2A4C680015274D /* boat.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EEE12FE89C3E7F2D39C0139 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBA06AB9379B5CFFE7C441D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7580F39B4650920CC332FAF1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BD389FC71B001F7000481875 /* Tradewinds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tradewinds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD389FCB1B001F7000481875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD389FCC1B001F7000481875 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +65,37 @@
 		BD389FE01B001F7000481875 /* TradewindsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradewindsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD389FE51B001F7000481875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD389FE61B001F7000481875 /* TradewindsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradewindsTests.m; sourceTree = "<group>"; };
+		BD389FF01B00321400481875 /* TradeWindsAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradeWindsAPI.h; sourceTree = "<group>"; };
+		BD389FF11B00321400481875 /* TradeWindsAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradeWindsAPI.m; sourceTree = "<group>"; };
+		BD389FF41B003D4200481875 /* OverviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverviewViewController.h; sourceTree = "<group>"; };
+		BD389FF51B003D4200481875 /* OverviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverviewViewController.m; sourceTree = "<group>"; };
+		BD389FF61B003D4200481875 /* OverviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverviewViewController.xib; sourceTree = "<group>"; };
+		BD389FFA1B003EFD00481875 /* MyReservationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyReservationCell.h; sourceTree = "<group>"; };
+		BD389FFB1B003EFD00481875 /* MyReservationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyReservationCell.m; sourceTree = "<group>"; };
+		BD389FFC1B003EFD00481875 /* MyReservationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyReservationCell.xib; sourceTree = "<group>"; };
+		BD38A0001B003FC500481875 /* BoatAvailabilityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoatAvailabilityCell.h; sourceTree = "<group>"; };
+		BD38A0011B003FC500481875 /* BoatAvailabilityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoatAvailabilityCell.m; sourceTree = "<group>"; };
+		BD38A0021B003FC500481875 /* BoatAvailabilityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BoatAvailabilityCell.xib; sourceTree = "<group>"; };
+		BD939A371B1A2DD200A9816F /* ReservationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReservationsViewController.h; sourceTree = "<group>"; };
+		BD939A381B1A2DD200A9816F /* ReservationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReservationsViewController.m; sourceTree = "<group>"; };
+		BD939A391B1A2DD200A9816F /* ReservationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReservationsViewController.xib; sourceTree = "<group>"; };
+		BD939A3D1B1A318D00A9816F /* MainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPageViewController.h; sourceTree = "<group>"; };
+		BD939A3E1B1A318D00A9816F /* MainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPageViewController.m; sourceTree = "<group>"; };
+		BD939A3F1B1A318D00A9816F /* MainPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainPageViewController.xib; sourceTree = "<group>"; };
+		BD939A431B1A399C00A9816F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BD939A461B1A3AAA00A9816F /* TradewindsDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TradewindsDataModel.xcdatamodel; sourceTree = "<group>"; };
+		BD939A491B1A42D800A9816F /* Availability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Availability.h; sourceTree = "<group>"; };
+		BD939A4A1B1A42D800A9816F /* Availability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Availability.m; sourceTree = "<group>"; };
+		BD939A4C1B1A476100A9816F /* UIColor+Tradewinds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Tradewinds.h"; sourceTree = "<group>"; };
+		BD939A4D1B1A476100A9816F /* UIColor+Tradewinds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Tradewinds.m"; sourceTree = "<group>"; };
+		BD939A511B1A5EAD00A9816F /* TWLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TWLogo.png; sourceTree = "<group>"; };
+		BD939A531B1A601700A9816F /* Reservation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reservation.h; sourceTree = "<group>"; };
+		BD939A541B1A601700A9816F /* Reservation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reservation.m; sourceTree = "<group>"; };
+		BDDDD5971B2A449A0015274D /* launchLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchLogo.png; sourceTree = "<group>"; };
+		BDDDD5991B2A48F10015274D /* TWReservationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWReservationCell.h; sourceTree = "<group>"; };
+		BDDDD59A1B2A48F10015274D /* TWReservationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWReservationCell.m; sourceTree = "<group>"; };
+		BDDDD59B1B2A48F10015274D /* TWReservationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWReservationCell.xib; sourceTree = "<group>"; };
+		BDDDD59E1B2A4C680015274D /* boat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boat.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +103,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD939A441B1A399C00A9816F /* CoreData.framework in Frameworks */,
+				472E2900A465EF05DDC14E7A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +118,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B29B2F760BF82A3BAF3E0B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD939A431B1A399C00A9816F /* CoreData.framework */,
+				0EEE12FE89C3E7F2D39C0139 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BD389FBE1B001F7000481875 = {
 			isa = PBXGroup;
 			children = (
 				BD389FC91B001F7000481875 /* Tradewinds */,
 				BD389FE31B001F7000481875 /* TradewindsTests */,
 				BD389FC81B001F7000481875 /* Products */,
+				D2FC15F1359FE4FB7F238228 /* Pods */,
+				5B29B2F760BF82A3BAF3E0B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,9 +151,19 @@
 			isa = PBXGroup;
 			children = (
 				BD389FCE1B001F7000481875 /* AppDelegate.h */,
+				BD939A511B1A5EAD00A9816F /* TWLogo.png */,
+				BDDDD59E1B2A4C680015274D /* boat.png */,
 				BD389FCF1B001F7000481875 /* AppDelegate.m */,
-				BD389FD11B001F7000481875 /* ViewController.h */,
-				BD389FD21B001F7000481875 /* ViewController.m */,
+				BDDDD5971B2A449A0015274D /* launchLogo.png */,
+				BD939A481B1A3AAF00A9816F /* Data */,
+				BD939A421B1A319000A9816F /* Page view controller */,
+				BD939A3C1B1A2DDD00A9816F /* Reservations */,
+				BD389FF31B003D2500481875 /* Login */,
+				BD389FF91B003D5700481875 /* Overview */,
+				BD389FF11B00321400481875 /* TradeWindsAPI.m */,
+				BD389FF01B00321400481875 /* TradeWindsAPI.h */,
+				BD939A4C1B1A476100A9816F /* UIColor+Tradewinds.h */,
+				BD939A4D1B1A476100A9816F /* UIColor+Tradewinds.m */,
 				BD389FD41B001F7000481875 /* Main.storyboard */,
 				BD389FD71B001F7000481875 /* Images.xcassets */,
 				BD389FD91B001F7000481875 /* LaunchScreen.xib */,
@@ -119,6 +198,83 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BD389FF31B003D2500481875 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BD389FD11B001F7000481875 /* ViewController.h */,
+				BD389FD21B001F7000481875 /* ViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		BD389FF91B003D5700481875 /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				BD389FF41B003D4200481875 /* OverviewViewController.h */,
+				BD389FF51B003D4200481875 /* OverviewViewController.m */,
+				BD389FF61B003D4200481875 /* OverviewViewController.xib */,
+				BDDDD5991B2A48F10015274D /* TWReservationCell.h */,
+				BDDDD59A1B2A48F10015274D /* TWReservationCell.m */,
+				BDDDD59B1B2A48F10015274D /* TWReservationCell.xib */,
+				BD389FFF1B003F0000481875 /* Cells */,
+			);
+			name = Overview;
+			sourceTree = "<group>";
+		};
+		BD389FFF1B003F0000481875 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BD389FFA1B003EFD00481875 /* MyReservationCell.h */,
+				BD389FFB1B003EFD00481875 /* MyReservationCell.m */,
+				BD389FFC1B003EFD00481875 /* MyReservationCell.xib */,
+				BD38A0001B003FC500481875 /* BoatAvailabilityCell.h */,
+				BD38A0011B003FC500481875 /* BoatAvailabilityCell.m */,
+				BD38A0021B003FC500481875 /* BoatAvailabilityCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		BD939A3C1B1A2DDD00A9816F /* Reservations */ = {
+			isa = PBXGroup;
+			children = (
+				BD939A371B1A2DD200A9816F /* ReservationsViewController.h */,
+				BD939A381B1A2DD200A9816F /* ReservationsViewController.m */,
+				BD939A391B1A2DD200A9816F /* ReservationsViewController.xib */,
+			);
+			name = Reservations;
+			sourceTree = "<group>";
+		};
+		BD939A421B1A319000A9816F /* Page view controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD939A3D1B1A318D00A9816F /* MainPageViewController.h */,
+				BD939A3E1B1A318D00A9816F /* MainPageViewController.m */,
+				BD939A3F1B1A318D00A9816F /* MainPageViewController.xib */,
+			);
+			name = "Page view controller";
+			sourceTree = "<group>";
+		};
+		BD939A481B1A3AAF00A9816F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BD939A451B1A3AAA00A9816F /* TradewindsDataModel.xcdatamodeld */,
+				BD939A531B1A601700A9816F /* Reservation.h */,
+				BD939A541B1A601700A9816F /* Reservation.m */,
+				BD939A491B1A42D800A9816F /* Availability.h */,
+				BD939A4A1B1A42D800A9816F /* Availability.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		D2FC15F1359FE4FB7F238228 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DBA06AB9379B5CFFE7C441D /* Pods.debug.xcconfig */,
+				7580F39B4650920CC332FAF1 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +282,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD389FEA1B001F7000481875 /* Build configuration list for PBXNativeTarget "Tradewinds" */;
 			buildPhases = (
+				144C943EE4BC265EB7ECEA89 /* Check Pods Manifest.lock */,
 				BD389FC31B001F7000481875 /* Sources */,
 				BD389FC41B001F7000481875 /* Frameworks */,
 				BD389FC51B001F7000481875 /* Resources */,
+				5ECEE02D4CF5992C184E14D5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +357,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD38A0041B003FC500481875 /* BoatAvailabilityCell.xib in Resources */,
 				BD389FD61B001F7000481875 /* Main.storyboard in Resources */,
+				BD389FFE1B003EFD00481875 /* MyReservationCell.xib in Resources */,
+				BDDDD5981B2A449A0015274D /* launchLogo.png in Resources */,
+				BD389FF81B003D4200481875 /* OverviewViewController.xib in Resources */,
+				BDDDD59F1B2A4C680015274D /* boat.png in Resources */,
+				BD939A521B1A5EAD00A9816F /* TWLogo.png in Resources */,
+				BD939A411B1A318D00A9816F /* MainPageViewController.xib in Resources */,
 				BD389FDB1B001F7000481875 /* LaunchScreen.xib in Resources */,
 				BD389FD81B001F7000481875 /* Images.xcassets in Resources */,
+				BDDDD59D1B2A48F10015274D /* TWReservationCell.xib in Resources */,
+				BD939A3B1B1A2DD200A9816F /* ReservationsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +381,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		144C943EE4BC265EB7ECEA89 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5ECEE02D4CF5992C184E14D5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BD389FC31B001F7000481875 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD389FFD1B003EFD00481875 /* MyReservationCell.m in Sources */,
+				BD939A4B1B1A42D800A9816F /* Availability.m in Sources */,
 				BD389FD31B001F7000481875 /* ViewController.m in Sources */,
+				BD939A471B1A3AAA00A9816F /* TradewindsDataModel.xcdatamodeld in Sources */,
+				BD939A4E1B1A476100A9816F /* UIColor+Tradewinds.m in Sources */,
+				BD389FF21B00321400481875 /* TradeWindsAPI.m in Sources */,
+				BD939A3A1B1A2DD200A9816F /* ReservationsViewController.m in Sources */,
 				BD389FD01B001F7000481875 /* AppDelegate.m in Sources */,
+				BD939A401B1A318D00A9816F /* MainPageViewController.m in Sources */,
 				BD389FCD1B001F7000481875 /* main.m in Sources */,
+				BD38A0031B003FC500481875 /* BoatAvailabilityCell.m in Sources */,
+				BD389FF71B003D4200481875 /* OverviewViewController.m in Sources */,
+				BD939A551B1A601700A9816F /* Reservation.m in Sources */,
+				BDDDD59C1B2A48F10015274D /* TWReservationCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +558,7 @@
 		};
 		BD389FEB1B001F7000481875 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DBA06AB9379B5CFFE7C441D /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tradewinds/Info.plist;
@@ -357,6 +569,7 @@
 		};
 		BD389FEC1B001F7000481875 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7580F39B4650920CC332FAF1 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tradewinds/Info.plist;
@@ -418,6 +631,7 @@
 				BD389FEC1B001F7000481875 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD389FED1B001F7000481875 /* Build configuration list for PBXNativeTarget "TradewindsTests" */ = {
 			isa = XCConfigurationList;
@@ -426,8 +640,22 @@
 				BD389FEF1B001F7000481875 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD939A451B1A3AAA00A9816F /* TradewindsDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD939A461B1A3AAA00A9816F /* TradewindsDataModel.xcdatamodel */,
+			);
+			currentVersion = BD939A461B1A3AAA00A9816F /* TradewindsDataModel.xcdatamodel */;
+			path = TradewindsDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BD389FBF1B001F7000481875 /* Project object */;
 }

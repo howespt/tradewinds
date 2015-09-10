@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "OverviewViewController.h"
+#import "TradeWindsAPI.h"
+#import "MainPageViewController.h"
 
 @interface ViewController ()
+
+@property (strong, nonatomic) TradeWindsAPI *tradewinds;
 
 @end
 
@@ -16,12 +21,38 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  // Do any additional setup after loading the view, typically from a nib.
+  
+  self.tradewinds = [TradeWindsAPI new];
+  [self.loginButton addTarget:self action:@selector(login) forControlEvents:UIControlEventTouchUpInside];
 }
 
-- (void)didReceiveMemoryWarning {
-  [super didReceiveMemoryWarning];
-  // Dispose of any resources that can be recreated.
+- (void)viewDidAppear:(BOOL)animated {
+  [super viewDidAppear:animated];
+  
+  NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+  
+  if ([userDefaults objectForKey:@"logged_in"]) {
+    [self handleLogin];
+  }
+  [self handleLogin];
+}
+
+- (void)login {
+  [self handleLogin];
+  [self.tradewinds loginWithUsername:self.usernameTextField.text password:self.passwordTextField.text callback:^(NSDictionary *response) {
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    [userDefaults setObject:@YES forKey:@"logged_in"];
+    [userDefaults setObject:self.passwordTextField.text forKey:@"password"];
+    [userDefaults setObject:self.usernameTextField.text forKey:@"username"];
+    
+    [self handleLogin];
+  }];
+}
+
+- (void)handleLogin {
+  MainPageViewController *mainPageVC = [MainPageViewController new];
+  UINavigationController *navControl = [[UINavigationController alloc] initWithRootViewController:mainPageVC];
+  [self presentViewController:navControl animated:YES completion:nil];
 }
 
 @end

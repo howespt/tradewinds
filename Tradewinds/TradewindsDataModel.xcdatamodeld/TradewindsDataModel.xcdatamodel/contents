@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14B25" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Availability" representedClassName="Availability" syncable="YES">
+        <attribute name="availability_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="boat_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unavailable" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="Reservation" representedClassName="Reservation" syncable="YES">
+        <attribute name="boat_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cancelled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="end_date_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="slip" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="start_date_time" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Reservation" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="Availability" positionX="-45" positionY="18" width="128" height="105"/>
+    </elements>
+</model>
